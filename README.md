@@ -36,3 +36,27 @@ cargo build
 cargo run
 
 ```
+
+## Usage
+
+The main program in `main.rs` demonstrates loading a simple program into the CPU's memory and executing it. You can modify this program or create new ones by adjusting the instruction and data values in the array passed to the `load_program` method.
+
+## Example Program
+
+Here's a quick breakdown of the sample program included in the source code:
+
+- **LOAD** the value from memory address `10` into the accumulator.
+- **ADD** the value at memory address `11` to the accumulator.
+- **STORE** the accumulator's value into memory address `12`.
+- **HALT** the execution.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit pull requests, report bugs, or suggest features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can adjust the repository URL and any specific details to better fit your project's documentation needs.
